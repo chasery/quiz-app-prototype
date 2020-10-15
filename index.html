@@ -9,6 +9,145 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
+    <header class="header">
+        <h1 class="header__text">Halloween Quiz</h1>
+        <p class="header__description">Test your knowledge of Halloween with this 5 question quiz!</p>
+    </header>
+    <main class="main">
+        <article>
+            <section class="center">
+                <button class="button">Start Quiz!</button>
+            </section>
+            <section>
+                <form class="question">
+                    <h3 class="question__number">Question 1 / 5</h3>
+                    <h2 class="question__text">Which country did Halloween originate in?</h2>
+                    <ul>
+                        <li class="answer">
+                            <label for="q1a">Mexico</label>
+                            <input type="radio" id="q1a" name="q1" value="Mexico">
+                        </li>
+                        <li class="answer answer--selected">
+                            <label for="q1b">Ireland</label>
+                            <input type="radio" id="q1b" name="q1" value="Ireland">
+                        </li>
+                        <li class="answer">
+                            <label for="q1c">Romania</label>
+                            <input type="radio" id="q1c" name="q1" value="Romania">
+                        </li>
+                        <li class="answer">
+                            <label for="q1d">Egypt</label>
+                            <input type="radio" id="q1d" name="q1" value="Egypt">
+                        </li>
+                    </ul>
+                </form>
+            </section>
+            <section>
+                <form class="question">
+                    <h3 class="question__number">Question 2 / 5</h3>
+                    <h2 class="question__text">What is the color order of a piece of candy corn from base to point?</h2>
+                    <ul>
+                        <li class="answer">
+                            <label for="q2a">Orange (base), Yellow (middle), White (point)</label>
+                            <input type="radio" id="q2a" name="q2" value="Orange (base), Yellow (middle), White (point)">
+                        </li>
+                        <li class="answer">
+                            <label for="q2b">Green (base), Yellow (middle), White (point)</label>
+                            <input type="radio" id="q2b" name="q2" value="Green (base), Yellow (middle), White (point)">
+                        </li>
+                        <li class="answer answer--selected">
+                            <label for="q2c">Yellow (base), White (middle), Orange (point)</label>
+                            <input type="radio" id="q2c" name="q2" value="Yellow (base), White (middle), Orange (point)">
+                        </li>
+                        <li class="answer">
+                            <label for="q2d">White (base), Orange (middle), Yellow (point)</label>
+                            <input type="radio" id="q2d" name="q2" value="White (base), Orange (middle), Yellow (point)">
+                        </li>
+                    </ul>
+                </form>
+            </section>
+            <section>
+                <form class="question">
+                    <h3 class="question__number">Question 3 / 5</h3>
+                    <h2 class="question__text">How many people were hung during the Salem Witch Trials?</h2>
+                    <ul>
+                        <li class="answer">
+                            <label for="q3a">13</label>
+                            <input type="radio" id="q3a" name="q3" value="13">
+                        </li>
+                        <li class="answer answer--selected">
+                            <label for="q3b">19</label>
+                            <input type="radio" id="q3b" name="q3" value="19">
+                        </li>
+                        <li class="answer">
+                            <label for="q3c">25</label>
+                            <input type="radio" id="q3c" name="q3" value="25">
+                        </li>
+                        <li class="answer">
+                            <label for="q3d">32</label>
+                            <input type="radio" id="q3d" name="q3" value="32">
+                        </li>
+                    </ul>
+                </form>
+            </section>
+            <section>
+                <form class="question">
+                    <h3 class="question__number">Question 4 / 5</h3>
+                    <h2 class="question__text">Who wrote the classic novel ‘Dracula?’</h2>
+                    <ul>
+                        <li class="answer">
+                            <label for="q4a">Mary Shelly</label>
+                            <input type="radio" id="q4a" name="q4" value="Mary Shelly">
+                        </li>
+                        <li class="answer">
+                            <label for="q4b">Edgar Allen Poe</label>
+                            <input type="radio" id="q4b" name="q4" value="Edgar Allen Poe">
+                        </li>
+                        <li class="answer">
+                            <label for="q4c">H.P. Lovecraft</label>
+                            <input type="radio" id="q4c" name="q4" value="H.P. Lovecraft">
+                        </li>
+                        <li class="answer answer--selected">
+                            <label for="q4d">Bram Stoker</label>
+                            <input type="radio" id="q4d" name="q4" value="Bram Stoker">
+                        </li>
+                    </ul>
+                </form>
+            </section>
+            <section>
+                <form class="question">
+                    <h3 class="question__number">Question 5 / 5</h3>
+                    <h2 class="question__text">Which horror movie icon has the highest on-screen body count?</h2>
+                    <ul>
+                        <li class="answer answer--selected">
+                            <label for="q5a">Jason Vorhees - Friday the 13th series</label>
+                            <input type="radio" id="q5a" name="q5" value="Jason Vorhees - Friday the 13th series">
+                        </li>
+                        <li class="answer">
+                            <label for="q5b">Freddy Krueger - A Nightmare on Elm Street series</label>
+                            <input type="radio" id="q5b" name="q5" value="Freddy Krueger - A Nightmare on Elm Street series">
+                        </li>
+                        <li class="answer">
+                            <label for="q5c">Michael Myers - Halloween series</label>
+                            <input type="radio" id="q5c" name="q5" value="Michael Myers - Halloween series">
+                        </li>
+                        <li class="answer">
+                            <label for="q5d">Leatherface - The Texas Chainsaw Massacre series</label>
+                            <input type="radio" id="q5d" name="q5" value="Leatherface - The Texas Chainsaw Massacre series">
+                        </li>
+                    </ul>
+                </form>
+            </section>
+            <section class="center">
+                <h2>Congratulations!</h2>
+                <p>You got 3 answers out of 5 correct.</p>
+                <button class="button">Retry</button>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <p class="footer__score">Correct Answers: <strong class="footer__count">3 / 5</strong></p>
+        <button class="footer__control">Next</button>
+    </footer>
 </body>
 </html>
